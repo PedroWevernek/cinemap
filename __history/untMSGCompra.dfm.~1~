@@ -1,0 +1,41 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Compra efetuada com sucesso!'
+  ClientHeight = 289
+  ClientWidth = 755
+  Color = 2368548
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWhite
+  Font.Height = -15
+  Font.Name = 'Segoe UI Light'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 20
+  object Label1: TLabel
+    Left = 72
+    Top = 96
+    Width = 603
+    Height = 28
+    Caption = 
+      'Compra efetuada com sucesso clique em prosseguir para assistir o' +
+      ' filme.'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -20
+    Font.Name = 'Segoe UI Light'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 490
+    Top = 218
+    Width = 185
+    Height = 41
+    Cursor = crHandPoint
+    Caption = 'Prosseguir'
+    TabOrder = 0
+  end
+end

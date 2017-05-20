@@ -1,0 +1,40 @@
+unit untTwd;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls;
+
+type
+  TFormTwd = class(TForm)
+    Image1: TImage;
+    ScrollBox1: TScrollBox;
+    Image2: TImage;
+    Image3: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image6: TImage;
+    Image7: TImage;
+    Image8: TImage;
+    imgFechar: TImage;
+    procedure imgFecharClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormTwd: TFormTwd;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormTwd.imgFecharClick(Sender: TObject);
+begin
+  close;
+end;
+
+end.

@@ -1,0 +1,38 @@
+object MediaJohnWick: TMediaJohnWick
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'MediaJohnWick'
+  ClientHeight = 697
+  ClientWidth = 1115
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  OnCreate = FormCreate
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MediaPlayer1: TMediaPlayer
+    Left = 0
+    Top = 667
+    Width = 1108
+    Height = 30
+    Align = alBottom
+    Display = Panel1
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 1115
+    Height = 667
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 1
+  end
+end

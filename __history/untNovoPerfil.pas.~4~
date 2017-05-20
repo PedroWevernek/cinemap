@@ -1,0 +1,44 @@
+unit untNovoPerfil;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls, Vcl.ExtDlgs;
+
+type
+  TFormNovoPerfil = class(TForm)
+    pnlMenu: TPanel;
+    Edit1: TEdit;
+    imgFechar: TImage;
+    Label1: TLabel;
+    Panel1: TPanel;
+    Label2: TLabel;
+    Nome: TLabel;
+    OpenTextFileDialog1: TOpenTextFileDialog;
+    Edit2: TEdit;
+    Label3: TLabel;
+    Edit3: TEdit;
+    Label4: TLabel;
+    Edit4: TEdit;
+    Label5: TLabel;
+    Label6: TLabel;
+    RadioButton1: TRadioButton;
+    Label7: TLabel;
+    RadioButton2: TRadioButton;
+    Label8: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormNovoPerfil: TFormNovoPerfil;
+
+implementation
+
+{$R *.dfm}
+
+end.

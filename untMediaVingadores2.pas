@@ -1,0 +1,47 @@
+unit untMediaVingadores2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.MPlayer, Vcl.ExtCtrls;
+
+type
+  TMediaVingadores2 = class(TForm)
+    Sair: TPanel;
+    MediaPlayer1: TMediaPlayer;
+    Panel1: TPanel;
+    procedure SairClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormResize(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  MediaVingadores2: TMediaVingadores2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TMediaVingadores2.FormCreate(Sender: TObject);
+begin
+  MediaPlayer1.Filename:= 'H:/Filmes/Vingadores - Era de Ultron (2015) 1080p 5.1 Dublado - Alan_680/Vingadores - Era de Ultron (2015) 1080p Dublado - Alan_680.mp4';
+  MediaPlayer1.Open;
+  MediaPlayer1.Play;
+end;
+
+procedure TMediaVingadores2.FormResize(Sender: TObject);
+begin
+  MediaPlayer1.DisplayRect:= Panel1.ClientRect;
+end;
+
+procedure TMediaVingadores2.SairClick(Sender: TObject);
+begin
+  close;
+end;
+
+end.

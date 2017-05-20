@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/01/24 12:09:10.000.420,=C:\Users\admin\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/01/24 12:10:03.000.503,C:\Users\admin\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\admin\Desktop\Cinemap\untLogin.dfm</Transaction>
+    <Transaction>2016/01/24 12:10:03.000.503,C:\Users\admin\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\admin\Desktop\Cinemap\untLogin.pas</Transaction>
+    <Transaction>2016/01/24 12:10:31.000.248,C:\Users\admin\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\admin\Desktop\Cinemap\proCinemap.dproj</Transaction>
+    <Transaction>2016/01/24 13:48:34.000.303,=C:\Users\admin\Desktop\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/01/24 13:50:58.000.134,C:\Users\admin\Desktop\Cinemap\Unit1.dfm=C:\Users\admin\Desktop\Cinemap\untCinemap.dfm</Transaction>
+    <Transaction>2016/01/24 13:50:58.000.134,C:\Users\admin\Desktop\Cinemap\Unit1.pas=C:\Users\admin\Desktop\Cinemap\untCinemap.pas</Transaction>
+    <Transaction>2016/02/05 08:34:59.000.426,=F:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/05 08:38:13.000.727,F:\Cinemap\untMenu.pas=F:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/05 08:38:13.000.727,F:\Cinemap\untMenu.dfm=F:\Cinemap\Unit1.dfm</Transaction>
+    <Transaction>2016/02/09 11:24:19.000.445,=F:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/09 11:26:43.000.716,F:\Cinemap\Unit1.dfm=F:\Cinemap\untJohnWick.dfm</Transaction>
+    <Transaction>2016/02/09 11:26:43.000.716,F:\Cinemap\Unit1.pas=F:\Cinemap\untJohnWick.pas</Transaction>
+    <Transaction>2016/02/17 19:46:10.000.551,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/17 19:58:58.000.587,D:\Cinemap\untCompra.dfm=D:\Cinemap\Unit1.dfm</Transaction>
+    <Transaction>2016/02/17 19:58:58.000.587,D:\Cinemap\untCompra.pas=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/17 20:10:30.000.158,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/17 20:17:00.000.892,D:\Cinemap\untMSGCompra.dfm=D:\Cinemap\Unit1.dfm</Transaction>
+    <Transaction>2016/02/17 20:17:00.000.892,D:\Cinemap\untMSGCompra.pas=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/17 21:03:12.000.284,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/17 21:19:10.000.315,D:\Cinemap\sectionAcao.pas=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/17 21:19:10.000.315,D:\Cinemap\sectionAcao.dfm=D:\Cinemap\Unit1.dfm</Transaction>
+    <Transaction>2016/02/17 21:39:50.000.831,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/17 21:41:27.000.437,D:\Cinemap\Unit1.dfm=D:\Cinemap\untSniperAmericano.dfm</Transaction>
+    <Transaction>2016/02/17 21:41:27.000.437,D:\Cinemap\Unit1.pas=D:\Cinemap\untSniperAmericano.pas</Transaction>
+    <Transaction>2016/02/20 14:40:46.000.460,=F:\Cinemap\Unit2.pas</Transaction>
+    <Transaction>2016/02/20 15:00:30.000.908,F:\Cinemap\Unit2.pas=F:\Cinemap\untMediaJohnWick.pas</Transaction>
+    <Transaction>2016/02/20 15:00:30.000.908,F:\Cinemap\Unit2.dfm=F:\Cinemap\untMediaJohnWick.dfm</Transaction>
+    <Transaction>2016/02/20 16:44:48.000.238,=F:\Cinemap\Unit2.pas</Transaction>
+    <Transaction>2016/02/20 16:45:58.000.370,F:\Cinemap\sectionAventura.pas=F:\Cinemap\Unit2.pas</Transaction>
+    <Transaction>2016/02/20 16:45:58.000.370,F:\Cinemap\sectionAventura.dfm=F:\Cinemap\Unit2.dfm</Transaction>
+    <Transaction>2016/02/20 17:42:12.000.920,=F:\Cinemap\Unit2.pas</Transaction>
+    <Transaction>2016/02/20 17:45:57.000.120,F:\Cinemap\Unit2.dfm=F:\Cinemap\sectionComedia.dfm</Transaction>
+    <Transaction>2016/02/20 17:45:57.000.120,F:\Cinemap\Unit2.pas=F:\Cinemap\sectionComedia.pas</Transaction>
+    <Transaction>2016/02/20 18:26:33.000.562,=F:\Cinemap\Unit2.pas</Transaction>
+    <Transaction>2016/02/20 18:37:58.000.641,F:\Cinemap\Unit2.dfm=F:\Cinemap\untMSGPIN.dfm</Transaction>
+    <Transaction>2016/02/20 18:37:58.000.641,F:\Cinemap\Unit2.pas=F:\Cinemap\untMSGPIN.pas</Transaction>
+    <Transaction>2016/02/20 22:32:33.000.245,F:\Cinemap\untSniperAmericano.pas=</Transaction>
+    <Transaction>2016/02/20 22:36:34.000.312,=F:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/20 22:41:05.000.196,F:\Cinemap\untSniperA.pas=F:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/20 22:41:05.000.196,F:\Cinemap\untSniperA.dfm=F:\Cinemap\Unit1.dfm</Transaction>
+    <Transaction>2016/02/27 23:21:24.000.781,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/27 23:26:14.000.447,D:\Cinemap\Unit1.pas=D:\Cinemap\untDeadpool.pas</Transaction>
+    <Transaction>2016/02/27 23:26:14.000.447,D:\Cinemap\Unit1.dfm=D:\Cinemap\untDeadpool.dfm</Transaction>
+    <Transaction>2016/02/28 10:44:19.000.583,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/02/28 11:10:05.000.222,D:\Cinemap\Unit1.pas=D:\Cinemap\untTwd.pas</Transaction>
+    <Transaction>2016/02/28 11:10:05.000.222,D:\Cinemap\Unit1.dfm=D:\Cinemap\untTwd.dfm</Transaction>
+    <Transaction>2016/03/02 15:29:46.000.591,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/03/02 15:31:38.000.270,D:\Cinemap\untMediaVingadores2.dfm=D:\Cinemap\Unit1.dfm</Transaction>
+    <Transaction>2016/03/02 15:31:38.000.270,D:\Cinemap\untMediaVingadores2.pas=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/03/02 16:01:41.000.361,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/03/02 16:03:54.000.054,D:\Cinemap\Unit1.dfm=D:\Cinemap\untVingadores2.dfm</Transaction>
+    <Transaction>2016/03/02 16:03:54.000.054,D:\Cinemap\Unit1.pas=D:\Cinemap\untVingadores2.pas</Transaction>
+    <Transaction>2016/03/03 08:41:02.000.580,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/03/03 08:43:29.000.777,D:\Cinemap\Unit1.dfm=D:\Cinemap\untMediaProjetoX.dfm</Transaction>
+    <Transaction>2016/03/03 08:43:29.000.777,D:\Cinemap\Unit1.pas=D:\Cinemap\untMediaProjetoX.pas</Transaction>
+    <Transaction>2016/03/03 09:21:50.000.352,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/03/03 09:22:24.000.302,D:\Cinemap\Unit1.dfm=D:\Cinemap\untProjetoX.dfm</Transaction>
+    <Transaction>2016/03/03 09:22:24.000.302,D:\Cinemap\Unit1.pas=D:\Cinemap\untProjetoX.pas</Transaction>
+    <Transaction>2016/03/03 10:00:19.000.650,=D:\Cinemap\Unit1.pas</Transaction>
+    <Transaction>2016/03/03 10:09:25.000.018,D:\Cinemap\Unit1.pas=D:\Cinemap\untNovoPerfil.pas</Transaction>
+    <Transaction>2016/03/03 10:09:25.000.018,D:\Cinemap\Unit1.dfm=D:\Cinemap\untNovoPerfil.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

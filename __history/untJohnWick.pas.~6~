@@ -1,0 +1,50 @@
+unit untJohnWick;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls;
+
+type
+  TFormJohnWick = class(TForm)
+    Image1: TImage;
+    Timer2: TTimer;
+    imgFechar: TImage;
+    procedure imgFecharClick(Sender: TObject);
+    procedure Timer2Timer(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormJohnWick: TFormJohnWick;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormJohnWick.FormShow(Sender: TObject);
+begin
+    Image1.Left := (Self.Width - Image1.Width) div 2;
+    Image1.Top := (Self.Height - Image1.Height) div 2;
+end;
+
+procedure TFormJohnWick.imgFecharClick(Sender: TObject);
+begin
+  close;
+end;
+
+procedure TFormJohnWick.Timer2Timer(Sender: TObject);
+begin
+    FormJohnWick.AlphaBlendValue:= FormJohnWick.AlphaBlendValue + 5;
+    If FormJohnWick.AlphaBlendValue= 245 Then
+      begin
+        Timer2.Enabled:= false;
+      end;
+end;
+
+end.

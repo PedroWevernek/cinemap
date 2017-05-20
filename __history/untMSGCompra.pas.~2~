@@ -1,0 +1,34 @@
+unit untMSGCompra;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TfrmMSG = class(TForm)
+    Panel2: TPanel;
+    Label1: TLabel;
+    Panel1: TPanel;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmMSG: TfrmMSG;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmMSG.FormShow(Sender: TObject);
+begin
+  Panel2.Left := (Self.Width - Panel2.Width) div 2;
+  Panel2.Top := (Self.Height - Panel2.Height) div 2;
+end;
+
+end.

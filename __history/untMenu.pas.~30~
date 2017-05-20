@@ -1,0 +1,120 @@
+unit untMenu;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.ExtCtrls,
+  Vcl.StdCtrls;
+
+type
+  TFormMenu = class(TForm)
+    imgFechar: TImage;
+    pnlMenuMenu: TPanel;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Image4: TImage;
+    Image5: TImage;
+    Image6: TImage;
+    Image7: TImage;
+    Image8: TImage;
+    Image9: TImage;
+    Panel1: TPanel;
+    Label1: TLabel;
+    Image10: TImage;
+    Image12: TImage;
+    Image13: TImage;
+    Image14: TImage;
+    Image15: TImage;
+    Image16: TImage;
+    Image17: TImage;
+    Image18: TImage;
+    Image19: TImage;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    Label2: TLabel;
+    Panel5: TPanel;
+    Label4: TLabel;
+    Image11: TImage;
+    Image21: TImage;
+    Image20: TImage;
+    Image22: TImage;
+    Image23: TImage;
+    Image24: TImage;
+    Image25: TImage;
+    Image26: TImage;
+    Label3: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Panel4: TPanel;
+    Label13: TLabel;
+    Edit1: TEdit;
+    Timer1: TTimer;
+    procedure imgFecharClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure Image1Click(Sender: TObject);
+    procedure Image22Click(Sender: TObject);
+    procedure Image2Click(Sender: TObject);
+    procedure Image5Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormMenu: TFormMenu;
+
+implementation
+
+{$R *.dfm}
+
+uses sectionAcao, untCinemap, sectionAventura, sectionComedia;
+procedure TFormMenu.FormShow(Sender: TObject);
+begin
+  pnlMenuMenu.Left:=(Self.Width - pnlMenuMenu.Width)div 2;
+  pnlMenuMenu.Top:=(Self.Height - pnlMenuMenu.Height)div 2;
+end;
+
+procedure TFormMenu.Image1Click(Sender: TObject);
+begin
+  frmSectionAcao.show;
+end;
+
+procedure TFormMenu.Image22Click(Sender: TObject);
+begin
+  FormCinemap.show;
+end;
+
+procedure TFormMenu.Image2Click(Sender: TObject);
+begin
+  frmSectionAventura.show;
+end;
+
+procedure TFormMenu.Image5Click(Sender: TObject);
+begin
+  frmSectionComedia.Show;
+end;
+
+procedure TFormMenu.imgFecharClick(Sender: TObject);
+begin
+close;
+end;
+
+procedure TFormMenu.Timer1Timer(Sender: TObject);
+begin
+    FormMenu.AlphaBlendValue:= FormMenu.AlphaBlendValue + 5;
+    If FormMenu.AlphaBlendValue= 245 Then
+      begin
+        Timer1.Enabled:= false;
+      end;end;
+
+end.

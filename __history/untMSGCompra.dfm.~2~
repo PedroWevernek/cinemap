@@ -1,0 +1,51 @@
+object frmMSG: TfrmMSG
+  Left = 0
+  Top = 0
+  AlphaBlend = True
+  AlphaBlendValue = 245
+  BorderStyle = bsNone
+  Caption = 'Compra efetuada com sucesso!'
+  ClientHeight = 620
+  ClientWidth = 959
+  Color = 2368548
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWhite
+  Font.Height = -15
+  Font.Name = 'Segoe UI Light'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 20
+  object Panel2: TPanel
+    Left = 160
+    Top = 208
+    Width = 657
+    Height = 225
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 32
+      Top = 39
+      Width = 603
+      Height = 28
+      Caption = 
+        'Compra efetuada com sucesso clique em prosseguir para assistir o' +
+        ' filme.'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWhite
+      Font.Height = -20
+      Font.Name = 'Segoe UI Light'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Panel1: TPanel
+      Left = 450
+      Top = 160
+      Width = 185
+      Height = 41
+      Cursor = crHandPoint
+      Caption = 'Prosseguir'
+      TabOrder = 0
+    end
+  end
+end

@@ -1,0 +1,40 @@
+unit untMSGPIN;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Panel2: TPanel;
+    Label1: TLabel;
+    Panel1: TPanel;
+    Image1: TImage;
+    Label2: TLabel;
+    Label3: TLabel;
+    Edit1: TEdit;
+    Label4: TLabel;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.FormShow(Sender: TObject);
+begin
+  Panel2.Left := (Self.Width - Panel2.Width) div 2;
+  Panel2.Top := (Self.Height - Panel2.Height) div 2;
+end;
+
+end.
